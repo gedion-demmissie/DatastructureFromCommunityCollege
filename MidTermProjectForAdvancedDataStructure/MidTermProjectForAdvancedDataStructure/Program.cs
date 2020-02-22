@@ -7,6 +7,10 @@ namespace MidTermProjectForAdvancedDataStructure
 {
     class Program
     {
+        /// <summary>
+        /// Driver method.
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var applicationUnderTest = new Program();
