@@ -525,6 +525,11 @@ namespace MidTermProjectForAdvancedDataStructure
                 MaxHeapify(arr, i, n);
         }
 
+        /// <summary>
+        /// Converts the Queue to Priority Queue.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
         static Queue<int>  PositionMaxEntryToTheFront(Queue<int> input)
         {
             Queue<int> maxQueue = new Queue<int>();
