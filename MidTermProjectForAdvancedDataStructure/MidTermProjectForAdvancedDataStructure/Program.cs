@@ -528,7 +528,7 @@ namespace MidTermProjectForAdvancedDataStructure
         /// <summary>
         /// Converts the Queue to Priority Queue.
         /// </summary>
-        /// <param name="input"> A queue to be converted to Max PriorityQuesy</param>
+        /// <param name="input"> A queue to be converted to Max PriorityQuery</param>
         /// <returns>Instance of MaXPriorityQueue </returns>
         static Queue<int>  PositionMaxEntryToTheFront(Queue<int> input)
         {
