@@ -288,7 +288,11 @@ namespace MidTermProjectForAdvancedDataStructure
             Console.ReadKey();
         }
     
-
+        /// <summary>
+        /// Created Paiinstances from the integer array input.
+        /// </summary>
+        /// <param name="inputValues">Integer array input to be converted to Pair object array</param>
+        /// <returns>Pair object array</returns>
         public Pair[] CreatePair(int[] inputValues)
         {
             List<Pair> zeroSumPairs = new List<Pair>();
