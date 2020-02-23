@@ -542,6 +542,7 @@ namespace MidTermProjectForAdvancedDataStructure
         {
             Queue<int> maxQueue = new Queue<int>();
             var convertedArray = input.ToArray();
+            //In the comparer expression, we provide the expression in such a way that  when the pair need to be swapped their difference should be positive.
             Array.Sort(convertedArray, (x, y) => y - x);
             foreach (var item in convertedArray)
             {
